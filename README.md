@@ -6,6 +6,8 @@ This repo shows an issue with Webpack and a circular import structure, in which:
 - A dependency of the entrypoint (two.js):
    - imports the re-export from src/index.js noted above
 
+![Graph](./graph.svg "Graph of module structure")
+
 ## Setup
 
 Run:
