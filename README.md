@@ -14,4 +14,4 @@ Run:
  * `npm install`
  * `npm run start`
 
-To see an example of Rollup (working), native browser ES module support (working in Chrome), and the Webpack case (currently breaks)
+...to see an example of Rollup (working), native browser ES module support (working in Chrome), and the Webpack case (currently breaks)
