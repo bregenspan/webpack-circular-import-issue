@@ -1,0 +1,19 @@
+{
+  "name": "module-issue-minimal-repro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npm run build:rollup && npm run build:webpack",
+    "build:rollup": "rollup src/index.js --file dist/rollup/bundle.js --format iife",
+    "build:webpack": "webpack -o dist/webpack/bundle.js --mode production",
+    "start": "npm run build && http-server -o examples/ -a 127.0.0.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "rollup": "^2.8.2",
+    "webpack": "4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
